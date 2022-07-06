@@ -1,4 +1,4 @@
-# 일기장
+# 안되면 될때까지
 
 
 
@@ -8,30 +8,15 @@
 
 
 
-<img src="https://typora.io/img/icon_256x256.png" style="zoom:50%;" />
+** ** **
 
 
 
-## Typora
+## Works
 
-1. 마크다운 편집기
-2. 다른 편집기와 다르게 문법을 이용해 적으면 바로 적용되서 표시가 된다.
-
-
-
-***
-
-
-
-<img src="https://images.velog.io/images/jengyoung/post/fe53a155-5cda-4cd9-8a3c-3cfbf385cc93/Git-Icon-1788C.png" alt="Git 기초 명령어." style="zoom: 33%;" />
-
-## git
-
-1. <u>**분산 버전 관리 시스템**</u>
-
-
-
-
-
-
+|       정리        |           실습            |
+| :---------------: | :-----------------------: |
+| [Markdown 문법]() | [Markdown](./마크실습.md) |
+|        Git        |                           |
+|   Github 업로드   |                           |
 
