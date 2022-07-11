@@ -1,2 +1,2 @@
 a= input().split(':')
-print(a[2:4])
+print(a[1])
