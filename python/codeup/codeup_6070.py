@@ -1,9 +1,9 @@
-a = input()
-if a == 12 or 1 or 2 :
-    print('winter')
-elif a == 3 or 4 or 5 :
+a = int(input())
+if a // 3 == 1 :
     print('spring')
-elif a == 6 or 7 or 8 :
-    print('spring')
-else :
+elif a // 3 == 2 :
+    print('summer')
+elif a // 3 == 3 :
     print('fall')
+else :
+    print('winter')
