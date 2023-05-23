@@ -11,6 +11,6 @@ num = max(book.values())
 list = []
 for ans in book:
     if num == book[ans]:
-        list.append(i)
+        list.append(ans)
 list.sort()
 print(list[0])
