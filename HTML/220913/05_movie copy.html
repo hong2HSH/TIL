@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid py-1 px-0">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Bootstrap" width="100" height="72">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./02_home.html">Home</a>
+              <a class="nav-link" href="./03_community.html">Community</a>
+              <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#myModal">Login</a>
+              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-target="#exampleModal"></button>
+                      </div>
+                      <div class="modal-body" id="exampleModal">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section class="container py-3 container1">
+        <div class="container row">
+          <div class="col-3">
+            <div class="card text-center" style="width: 18rem;">
+            <img src="./images/interstellar.png" class="card-img-top" alt="...">
+            <div class="card-body container p-2">
+              <div class="card-title m-0">
+                <div class="container d-flex justify-content-center">
+                  <img class="icon1 pt-2" src="./images/netflix_.ico" alt="">
+                  <div class="text-lg-start">Now Streaming<p class="p-0 m-0 fw-bold">Watch Now</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-9 text-lg-start btn-group-vertical">
+                <h2>
+                  <span class="fw-bold">인터스텔라</span>
+                  <span>(2014)</span>
+                  </h2>
+                <ul class="d-flex text-start m-0 p-0">
+                  <i class="pe-1 bi bi-badge-4k"></i>
+                  <p class="pe-4 ps-1">2014/11/06 (KR)</p>
+                  <li class="pe-4">모험,드라마,SF</li>
+                  <li>2h 49m</li>
+                </ul>
+                <ul class="d-flex m-0 p-0 align-items-center">
+                  <img src="./images/다운로드.png" alt="">
+                  <div class="ps-2">
+                    <p class="p-0 m-0">회원</p>
+                    <p class="p-0 m-0">점수</p>
+                  </div><div class="detail_btn">
+                    <div class="group_btn">
+                            <a href="https://watcha.com/contents/mNdKBkO?utm_campaign=metadata&amp;utm_source=kakao&amp;utm_medium=movie" target="_blank" class="btn_g">
+                                <span class="ico_movie ico_watcha"></span>왓챠
+                            </a>
+                            <a href="https://www.netflix.com/title/70005379" target="_blank" class="btn_g">
+                                <span class="ico_movie ico_netflix"></span>넷플릭스
+                            </a>
+                            <a href="https://www.wavve.com/player/movie?movieid=MV_CD01_WR0000011371" target="_blank" class="btn_g">
+                                <span class="ico_movie ico_wavve"></span>웨이브
+                            </a>
+                    </div>
+                </div>
+                </ul>
+                <h5 class="text-muted fst-italic my-2">
+                  우린 답을 찾을 것이다, 늘 그랬듯이
+                </h5>
+                <h4 class="fw-bold">
+                  개요
+                </h4>
+                <p>
+                  세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...
+                </p>
+                <div>
+                    <span class="fw-bold pe-3">Christopher Nolan</span>
+                    <span class="fw-bold">Jonathan Nolan</span>
+                </div>
+                <div class="mb-3">
+                  <span class="pe-5">Director, Writer</span>
+                  <span class="">Writer</span>
+              </div>
+          </div>
+        </div>
+    </section>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
