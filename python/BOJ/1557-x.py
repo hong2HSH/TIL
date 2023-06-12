@@ -6,13 +6,13 @@ cnt = 1
 if k == 1:
     print(1)
 else:
-    while 1 :
+    while 1:
         n += 1
-        a = n **(1/2)
+        a = n ** (1 / 2)
         print(a)
         b = math.ceil(a)
         print(b)
-        if  a ** 2 != b ** 2:
+        if a**2 != b**2:
             print("다름")
             cnt += 1
         else:
@@ -20,3 +20,6 @@ else:
         if cnt == k:
             break
     print(n)
+
+    ## 제곱수에 대한 해석 오류
+    ## 해석 이후 접근방법 힘듬
