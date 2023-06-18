@@ -4,9 +4,9 @@ dict = {}
 num = []
 
 for _ in range(N):
-    li.append(input().split())
+    li.append(input().rstrip())
 
-for i in range(n):
+for i in range(N):
     for j in range(len(li[i])):
         if li[i][j] in dict:
             dict[li[i][j]] += 10 ** (len(li[i]) - j - 1)
