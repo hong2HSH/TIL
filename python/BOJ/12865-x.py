@@ -10,6 +10,7 @@ li.sort(key=lambda x: x[1], reverse=True)
 x = k
 y = 0
 print(li)
+heap = []
 
 for i in li:
     if i[0] > k:
